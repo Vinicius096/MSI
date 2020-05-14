@@ -1,0 +1,5 @@
+1- Reconhecer e catalogar repositórios de 100 sistemas reais, de projetos opensource, para cada uma das 5 linguagens de programação mais populares no Github.
+2- Aprender a usar a ferramenta chave dessa pesquisa https://github.com/Vinicius096/Truck-Factor
+3- Escolher alguns repositórios do catálogo, clonar este repositório, extrair suas características através de gitlog, calcular o TF através do item 2.
+4- Automatizar o item 3 para os 500 repositórios.
+5- Fazer avaliações estatítiscas sobre os dados recolhidos.
