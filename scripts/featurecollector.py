@@ -32,11 +32,16 @@ def Clone_repo(url: str, path: str):
 def clean_repo(path: str):
     shutil.rmtree(path)
 
+def Git_logger(repo, repo_name: str, features):
+
+    pass
 
 with open('data/vue.txt', 'r') as repositories:
+    features = open('data/features', 'w')
     for repo_url in repositories:
         repo_name = Get_repo_name(repo_url)
         repo_path = "/home/brenner/MSI/repositories/" + repo_name
         repo = Clone_repo(repo_url, repo_path)
-        #gitlog
+        Git_logger(repo, repo_name, features)
         clean_repo(repo_path)
+    features.close()
