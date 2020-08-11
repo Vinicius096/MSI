@@ -9,9 +9,9 @@
 # passo 3: excluir o repositorio
 
 from git import Repo
-import os, sys
+import os, sys, shutil
 
-def get_repo_name(url: str) -> str:
+def Get_repo_name(url: str) -> str:
     
     last_slash = url.rfind("/")
     last_suffix = url.rfind(".git")
@@ -24,10 +24,19 @@ def get_repo_name(url: str) -> str:
 
     return url[last_slash + 1:last_suffix]
 
+def Clone_repo(url: str, path: str):
+    os.mkdir(path)
+    repo = Repo.clone_from(url, path)
+    return repo
 
-repositories = open('data/vue.txt', 'r')
-repo_url = repositories.readline()
-repo_name = get_repo_name(repo_url)
-repo_path = "/home/brenner/MSI/repositories/" + repo_name
-os.mkdir(repo_path)
-Repo.clone_from(repo_url, repo_path)
+def clean_repo(path: str):
+    shutil.rmtree(path)
+
+
+with open('data/vue.txt', 'r') as repositories:
+    for repo_url in repositories:
+        repo_name = Get_repo_name(repo_url)
+        repo_path = "/home/brenner/MSI/repositories/" + repo_name
+        repo = Clone_repo(repo_url, repo_path)
+        #gitlog
+        clean_repo(repo_path)
