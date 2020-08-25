@@ -33,8 +33,23 @@ def clean_repo(path: str):
     shutil.rmtree(path)
 
 def Git_logger(repo, repo_name: str, features):
+    loc = count_LOC()
+    devs = count_devs()
+    files = count_files()
+    commits = count_commits()
+    return loc, devs, files, commits
 
-    pass
+def count_LOC():
+    return 0
+
+def count_devs():
+    return 0
+
+def count_files():
+    return 0
+
+def count_commits():
+    return 0
 
 with open('data/vue.txt', 'r') as repositories:
     features = open('data/features', 'w')
