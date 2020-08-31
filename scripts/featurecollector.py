@@ -36,11 +36,20 @@ def linguist_script(repo_path):
     return num_lines
 
 def gittruckfactor(repo_path, repo_fullname):
-    out = open("data/TF.txt", "w+")
-    subprocess.call([
+    out = open("data/TF.txt", "w")
+    subprocess.check_call([
         "java", "-jar", "gittruckfactor.jar", repo_path, repo_fullname
     ], stdout=out)
-    return 0
+    out.close
+    out = open("data/TF.txt", "r")
+    print (out.readline())
+    print (out.readline())
+    print (out.readline())
+    print (out.readline())
+    TF_str = out.readline()
+    out.close()
+    print (TF_str)
+    return TF_str[5: TF_str.find(r"(")-1]
 
 def clean_repo(path: str):
     shutil.rmtree(path)
