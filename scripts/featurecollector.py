@@ -34,17 +34,30 @@ def linguist_script(repo_path):
     subprocess.check_call([
         "./linguist_script.sh", repo_path
     ])
+    LOC = 0
+    num_lines = 0
     for line in open(repo_path + '/linguistfiles.log'):
-        LOC = 0
-        LOC += get_LOC(line)
-        num_lines = 0
+        LOC += get_LOC(repo_path, line)
         num_lines += 1
+        print(num_lines, LOC)
     
     return num_lines, LOC
 
-def get_LOC(line):
-    
-    return 0
+def get_LOC(repo_path, line):
+    line = line.rstrip("\n")
+    first_semicolon = line.find(";")
+    target = "/" + line[first_semicolon+1:]
+    subprocess.check_call([
+       "./count_loc_script.sh", repo_path, target
+    ])
+    with open( repo_path + '/LOC.txt', 'r') as LOC_file:
+        contents = LOC_file.read()
+        sum_index = contents.find("SUM:")
+        comments_last_index = sum_index + 64
+        LOC_last_index = sum_index + 79
+        LOC = int(contents[comments_last_index:LOC_last_index])
+
+    return LOC
 
 def gittruckfactor(repo_path, repo_fullname):
     out = open("data/TF.txt", "w")

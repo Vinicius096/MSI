@@ -2,7 +2,6 @@
 
 path=$1
 currentpath=${PWD}
-clear
 now=$(date)
 echo -e $now: BEGIN git log extraction: $path \\n 
 
