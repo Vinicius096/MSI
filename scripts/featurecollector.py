@@ -36,10 +36,10 @@ def linguist_script(repo_path):
     ])
     LOC = 0
     num_lines = 0
+    print ("Counting lines of code...")
     for line in open(repo_path + '/linguistfiles.log'):
         LOC += get_LOC(repo_path, line)
         num_lines += 1
-        print(num_lines, LOC)
     
     return num_lines, LOC
 
@@ -59,7 +59,6 @@ def get_LOC(repo_path, line):
             sum_index = contents.find("SUM:")
             sum_text = contents[sum_index:]
             sum_text = sum_text[:sum_text.find('\n')]
-            print (sum_text)
             LOC = int(re.findall(r'\d+', sum_text)[-1])
 
     return LOC
