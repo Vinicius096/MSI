@@ -43,6 +43,7 @@ def linguist_script(repo_path):
     return num_lines, LOC
 
 def get_LOC(line):
+    
     return 0
 
 def gittruckfactor(repo_path, repo_fullname):
