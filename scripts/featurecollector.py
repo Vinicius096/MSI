@@ -1,6 +1,6 @@
 import git
 from git import Repo
-import os, sys, shutil, subprocess
+import os, sys, shutil, subprocess, re
 
 def Get_repo_name(url: str) -> str:
     
@@ -52,10 +52,15 @@ def get_LOC(repo_path, line):
     ])
     with open( repo_path + '/LOC.txt', 'r') as LOC_file:
         contents = LOC_file.read()
-        sum_index = contents.find("SUM:")
-        comments_last_index = sum_index + 64
-        LOC_last_index = sum_index + 79
-        LOC = int(contents[comments_last_index:LOC_last_index])
+        if contents.find("1 file ignored.") > 0:
+            LOC = 0
+
+        else:
+            sum_index = contents.find("SUM:")
+            sum_text = contents[sum_index:]
+            sum_text = sum_text[:sum_text.find('\n')]
+            print (sum_text)
+            LOC = int(re.findall(r'\d+', sum_text)[-1])
 
     return LOC
 
@@ -85,7 +90,7 @@ def devs_log_script(repo_path):
 def clean_repo(path: str):
     shutil.rmtree(path)
 
-with open('data/vue.txt', 'r') as repositories:
+with open('data/systems.txt', 'r') as repositories:
     features = open('data/features.txt', 'w')
     features.write("Repository, Number of commits, Number of Files, LOC, TF, Number of Devs" + '\n')
     for line in repositories:
