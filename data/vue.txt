@@ -1,1 +1,2 @@
 https://github.com/vuejs/vue.git
+https://github.com/facebook/react.git

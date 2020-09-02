@@ -17,8 +17,10 @@ def Get_repo_name(url: str) -> str:
     return url[last_slash + 1:last_suffix], url[second_last_slash + 1:last_suffix]
 
 def Clone_repo(url: str, path: str):
+    print ("Cloning repository " + url + " to " + path)
     os.mkdir(path)
     repo = Repo.clone_from(url, path)
+    print ("Repository cloned")
     return repo
 
 def commit_log_script(repo_path):
@@ -32,8 +34,16 @@ def linguist_script(repo_path):
     subprocess.check_call([
         "./linguist_script.sh", repo_path
     ])
-    num_lines = sum(1 for line in open(repo_path + '/linguistfiles.log'))
-    return num_lines
+    for line in open(repo_path + '/linguistfiles.log'):
+        LOC = 0
+        LOC += get_LOC(line)
+        num_lines = 0
+        num_lines += 1
+    
+    return num_lines, LOC
+
+def get_LOC(line):
+    return 0
 
 def gittruckfactor(repo_path, repo_fullname):
     out = open("data/TF.txt", "w")
@@ -63,15 +73,16 @@ def clean_repo(path: str):
 
 with open('data/vue.txt', 'r') as repositories:
     features = open('data/features.txt', 'w')
-    features.write("Repository, Number of commits, Number of Files, TF, Number of Devs" + '\n')
-    for repo_url in repositories:
+    features.write("Repository, Number of commits, Number of Files, LOC, TF, Number of Devs" + '\n')
+    for line in repositories:
+        repo_url = line.rstrip("\n")
         repo_name, repo_fullname = Get_repo_name(repo_url)
         repo_path = "/home/brenner/MSI/repositories/" + repo_name
         repo = Clone_repo(repo_url, repo_path)
         num_commits = commit_log_script(repo_path)
-        num_files = linguist_script(repo_path)
+        num_files, LOC = linguist_script(repo_path)
         TF = gittruckfactor(repo_path, repo_fullname)
         num_devs = devs_log_script(repo_path)
-        features.write(repo_fullname + ', ' + str(num_commits) + ', ' + str(num_files) + ', ' + TF + ', ' + str(num_devs) +'\n')
+        features.write(repo_fullname + ', ' + str(num_commits) + ', ' + str(num_files) + ', ' + str(LOC) + ', ' + TF + ', ' + str(num_devs) +'\n')
         clean_repo(repo_path)
-        features.close()
+    features.close()
