@@ -47,19 +47,26 @@ def get_LOC(repo_path, line):
     line = line.rstrip("\n")
     first_semicolon = line.find(";")
     target = "/" + line[first_semicolon+1:]
-    subprocess.check_call([
-       "./count_loc_script.sh", repo_path, target
-    ])
-    with open( repo_path + '/LOC.txt', 'r') as LOC_file:
-        contents = LOC_file.read()
-        if contents.find("1 file ignored.") > 0:
-            LOC = 0
+    if target.find(' ') > 0:
+        return 0
+    else:
+        subprocess.check_call([
+        "./count_loc_script.sh", repo_path, target
+        ])
+        with open( repo_path + '/LOC.txt', 'r') as LOC_file:
+            contents = LOC_file.read()
+            if contents.find("1 text file.") > 0:
+                if contents.find("1 file ignored.") > 0:
+                    return 0
 
-        else:
-            sum_index = contents.find("SUM:")
-            sum_text = contents[sum_index:]
-            sum_text = sum_text[:sum_text.find('\n')]
-            LOC = int(re.findall(r'\d+', sum_text)[-1])
+                else:
+                    sum_index = contents.find("SUM:")
+                    sum_text = contents[sum_index:]
+                    sum_text = sum_text[:sum_text.find('\n')]
+                    LOC = int(re.findall(r'\d+', sum_text)[-1])
+                    
+            else:
+                return 0
 
     return LOC
 
