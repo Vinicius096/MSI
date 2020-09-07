@@ -1,1 +1,0 @@
-Folder destined to handle the repositories when they are being used
