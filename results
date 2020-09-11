@@ -1,5 +1,3 @@
-Repository, Number of commits, Number of Files, LOC, TF, Number of Devs
-JavaScript
 vuejs/vue, 3113, 458, 81858, 1, 329
 facebook/react, 13547, 840, 143848, 4, 1622
 twbs/bootstrap, 19978, 247, 35428, 09-03 12:22:51 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: _reset-text.scs, 1418
@@ -100,7 +98,6 @@ sequelize/sequelize, 8745, 318, 83359, 4, 1084
 balderdashy/sails, 7045, 229, 24419, 2, 299
 ajaxorg/ace, 7870, 828, 207768, 2, 506
 VincentGarreau/particles.js, 235, 1, 1081, 1, 16
-Java
 elastic/elasticsearch, 54518, 14120, 1754569, 09-04 12:33:20 WARN  DOACalculator:92 - No commits for libs/secure-sm/src/main/java/org/elasticsearch/secure_sm/SuppressForbidden.jav, 1817
 spring-projects/spring-boot, 28488, 5707, 317454, 09-04 14:10:28 WARN  DOACalculator:92 - No commits for spring-boot-project/spring-boot-docs/src/test/java/org/springframework/boot/docs/test/system/OutputCaptureTests.jav, 950
 ReactiveX/RxJava, 5777, 1865, 311333, 1, 323
@@ -201,3 +198,156 @@ liaohuqiu/android-Ultra-Pull-To-Refresh, 182, 52, 5256, 09-07 19:28:41 WARN  DOA
 iBotPeaches/Apktool, 1656, 147, 12781, 1, 94
 H07000223/FlycoTabLayout, 40, 16, 2783, 1, 2
 ksoichiro/Android-ObservableScrollView, 383, 78, 6244, 1, 18
+tensorflow/tensorflow, 94861, 13558, 2681198, 09-08 02:40:00 WARN  DOACalculator:92 - No commits for tensorflow/compiler/mlir/python/mlir_wrapper/attrs.c, 3447
+electron/electron, 24000, 1110, 122183, 3, 1197
+microsoft/terminal, 1602, 1062, 187515, 2, 265
+apple/swift, 111440, 17171, 1291045, 8, 1082
+opencv/opencv, 29203, 2495, 689807, 09-08 06:45:28 WARN  DOACalculator:92 - No commits for modules/calib3d/src/undistort.dispatch.cp, 1749
+bitcoin/bitcoin, 25671, 1329, 207312, 09-08 07:02:44 WARN  DOACalculator:92 - No commits for src/crc32c/.ycm_extra_conf.p, 1026
+protocolbuffers/protobuf, 7644, 1693, 553622, 09-08 07:20:39 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: csharp/src/AddressBook/AddressBookProtos.c, 798
+pytorch/pytorch, 29570, 6548, 1129496, 09-08 08:33:28 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: torch/lib/TH/TH., 2370
+x64dbg/x64dbg, 4465, 542, 123295, 1, 116
+tesseract-ocr/tesseract, 4626, 644, 165054, 3, 187
+BVLC/caffe, 4156, 467, 74240, 5, 342
+godotengine/godot, 30248, 2433, 626101, 2, 1451
+ariya/phantomjs, 1958, 204, 16982, 2, 196
+grpc/grpc, 46635, 4096, 468849, 09-08 10:43:16 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: src/core/ext/client_config/client_channel_factory., 807
+rethinkdb/rethinkdb, 33430, 1690, 365060, 4, 284
+cmderdev/cmder, 1200, 6, 876, 4, 149
+google/leveldb, 336, 134, 21273, 2, 57
+microsoft/calculator, 596, 360, 50170, 1, 78
+ocornut/imgui, 5922, 16, 30059, 1, 251
+aria2/aria2, 5271, 1183, 121466, 1, 63
+emscripten-core/emscripten, 21449, 4120, 616933, 4, 645
+dmlc/xgboost, 4963, 627, 81490, 09-08 12:29:50 WARN  DOACalculator:92 - No commits for rabit/CMakeLists.tx, 528
+nlohmann/json, 3876, 124, 58180, 1, 219
+mongodb/mongo, 53747, 8939, 1137647, 27, 857
+microsoft/CNTK, 16116, 1333, 264663, 10, 391
+osquery/osquery, 5616, 1555, 164594, 4, 399
+CMU-Perceptual-Computing-Lab/openpose, 626, 395, 46562, 1, 83
+facebook/rocksdb, 9363, 1334, 356978, 7, 806
+ApolloAuto/apollo, 17062, 4584, 408404, 12, 480
+microsoft/PowerToys, 3865, 959, 81552, 6, 248
+swoole/swoole-src, 11807, 1322, 89823, 2, 219
+uglide/RedisDesktopManager, 1777, 220, 14856, 1, 85
+v8/v8, 64248, 10393, 2081251, 21, 932
+google/googletest, 3423, 219, 57870, 09-08 21:55:12 WARN  DOACalculator:92 - No commits for googlemock/test/pump_test.p, 366
+facebook/folly, 8820, 1720, 300996, 12, 918
+commaai/openpilot, 1603, 1846, 238726, 1, 101
+cocos2d/cocos2d-x, 37350, 2435, 589811, 6, 999
+Tencent/mars, 1249, 3833, 569505, 1, 65
+google/flatbuffers, 2007, 528, 110501, 7, 486
+apache/incubator-weex, 11996, 2927, 357715, 09-09 02:01:59 WARN  DOACalculator:92 - No commits for android/sdk/src/main/java/org/apache/weex/jsEngine/CallBackCode.jav, 378
+haoel/leetcode, 598, 560, 21400, 09-09 02:11:03 WARN  DOACalculator:92 - No commits for algorithms/cpp/addDigits/addDigits.cp, 48
+facebook/yoga, 1990, 495, 89853, 5, 240
+sqlitebrowser/sqlitebrowser, 3422, 327, 124209, 1, 157
+envoyproxy/envoy, 7264, 3877, 435043, 8, 691
+google/guetzli, 145, 57, 5870, 1, 24
+telegramdesktop/tdesktop, 7965, 1081, 308595, 1, 146
+uNetworking/uWebSockets, 575, 49, 6007, 1, 12
+vnpy/vnpy, 5105, 1716, 489897, 2, 128
+microsoft/react-native-windows, 4051, 1496, 182383, 4, 197
+catchorg/Catch2, 3223, 306, 36558, 2, 271
+EOSIO/eos, 15489, 684, 330691, 09-09 04:16:24 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: tests/include/eosio/chain/test/chainbase_fixture.hp, 323
+PaddlePaddle/Paddle, 28257, 4150, 590985, 09-09 05:04:54 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: paddle/fluid/framework/inlined_stack., 645
+microsoft/LightGBM, 2025, 183, 45885, 2, 188
+notepad-plus-plus/notepad-plus-plus, 3591, 661, 232121, 1, 472
+google/libphonenumber, 1783, 284, 108752, 2, 135
+ValveSoftware/Proton, 819, 2948, 628175, 1, 54
+xbmc/xbmc, 55815, 5065, 739281, 8, 1176
+taichi-dev/taichi, 6647, 522, 61790, 1, 71
+pqrs-org/Karabiner-Elements, 4369, 516, 29945, 1, 35
+arendst/Tasmota, 8301, 2811, 830313, 3, 266
+ClickHouse/ClickHouse, 47584, 5519, 627534, 09-09 15:03:04 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: src/Processors/Merges/FixedSizeDequeWithGaps., 848
+apple/foundationdb, 12352, 1016, 344491, 3, 199
+apache/incubator-brpc, 2116, 1038, 174255, 1, 117
+microsoft/AirSim, 2181, 619, 110692, 2, 203
+yuzu-emu/yuzu, 15931, 1201, 262251, 4, 317
+SFTtech/openage, 3638, 1039, 85628, 09-09 16:38:12 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: src/audio/dynamic_loader.cp, 178
+apple/turicreate, 1545, 2162, 372071, 2, 96
+CRYTEK/CRYENGINE, 9274, 15545, 3084944, 4, 2732
+arangodb/arangodb, 46795, 3776, 1070476, 09-11 06:33:28 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: js/apps/system/aardvark/frontend/scss/style.cs, 186
+openalpr/openalpr, 1387, 283, 54028, 1, 79
+yangyangwithgnu/hardseed, 197, 37, 3735, 1, 8
+lemire/simdjson, 1747, 230, 36860, 2, 71
+facebookresearch/faiss, 350, 450, 56350, 2, 70
+mobile-shell/mosh, 1377, 135, 15124, 1, 69
+Tencent/rapidjson, 2283, 104, 25827, 1, 197
+microsoft/napajs, 271, 273, 14139, 2, 37
+facebook/watchman, 4449, 495, 59108, 1, 216
+davisking/dlib, 7855, 1302, 301435, 1, 176
+google/filament, 3165, 1097, 270635, 2, 89
+trojan-gfw/trojan, 460, 40, 3116, 1, 21
+qbittorrent/qBittorrent, 10463, 484, 73578, 3, 252
+ShiqiYu/libfacedetection, 143, 27, 4201, 2, 21
+Tencent/ncnn, 1632, 956, 266099, 2, 139
+ssloy/tinyrenderer, 102, 11, 814, 1, 10
+aseprite/aseprite, 7328, 1295, 149910, 1, 62
+TarsCloud/Tars, 791, 16, 1111, 1, 105
+gabime/spdlog, 3421, 139, 30214, 1, 244
+Studio3T/robomongo, 2449, 479, 116272, 2, 47
+diasurgical/devilution, 2621, 200, 96512, 2, 51
+OpenRCT2/OpenRCT2, 19883, 998, 512360, 2, 499
+ethereum/solidity, 17763, 4577, 174338, 4, 491
+zealdocs/zeal, 1707, 112, 12345, 1, 67
+acaudwell/Gource, 876, 86, 13643, 1, 48
+shadowsocks/shadowsocks-qt5, 688, 37, 2388, 1, 17
+openframeworks/openFrameworks, 16474, 747, 128933, 09-11 09:50:48 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: libs/openFrameworksCompiled/project/linuxarmv6l/config.linuxarmv6.default.mak, 537
+CoatiSoftware/Sourcetrail, 2683, 1742, 154117, 2, 39
+ossrs/srs, 5071, 318, 101543, 1, 64
+RPCS3/rpcs3, 10869, 863, 286233, 3, 314
+ceph/ceph, 115041, 5836, 1328281, 10, 1364
+bkaradzic/bgfx, 7408, 153, 93206, 1, 230
+ytdl-org/youtube-dl, 17736, 873, 121709, 3, 924
+nvbn/thefuck, 1567, 386, 9964, 3, 175
+pallets/flask, 4012, 62, 8818, 2, 724
+django/django, 28753, 2459, 263815, 9, 2475
+keras-team/keras, 5349, 132, 14118, 1, 974
+jakubroztocil/httpie, 1258, 61, 5787, 1, 115
+ansible/ansible, 50637, 1615, 174198, 4, 6406
+psf/requests, 5980, 34, 5923, 3, 697
+scikit-learn/scikit-learn, 26102, 611, 136783, 13, 2112
+scrapy/scrapy, 8449, 308, 31485, 3, 517
+ageitgey/face_recognition, 194, 9, 634, 1, 39
+home-assistant/core, 29482, 5314, 598810, 5, 2429
+soimort/you-get, 2309, 131, 11189, 1, 235
+XX-net/XX-Net, 2212, 1324, 328496, 1, 107
+python/cpython, 108048, 2644, 988581, 16, 1582
+deepfakes/faceswap, 1167, 173, 30689, 1, 92
+testerSunshine/12306, 434, 51, 3375, 1, 36
+certbot/certbot, 9932, 457, 51759, 4, 512
+getsentry/sentry, 31705, 5400, 486723, 7, 622
+pandas-dev/pandas, 23997, 1263, 329721, 5, 2795
+localstack/localstack, 1455, 165, 25981, 1, 323
+huggingface/transformers, 5143, 321, 85243, 5, 608
+facebookresearch/Detectron, 140, 102, 12599, 2, 40
+fxsjy/jieba, 523, 66, 918610, 09-11 16:09:08 WARN  DOACalculator:92 - No commits for test/test_whoosh_file.p, 55
+ycm-core/YouCompleteMe, 2726, 80, 12221, 3, 180
+littlecodersh/ItChat, 188, 17, 2328, 1, 18
+openai/gym, 1220, 166, 11475, 4, 280
+pypa/pipenv, 6936, 249, 39376, 1, 406
+tornadoweb/tornado, 4211, 110, 25869, 1, 427
+docker/compose, 5843, 109, 25750, 3, 428
+apache/incubator-mxnet, 11289, 1819, 335605, 18, 1049
+chubin/cheat.sh, 737, 52, 5011, 1, 46
+hankcs/HanLP, 1354, 193, 7727, 1, 47
+mitmproxy/mitmproxy, 8709, 635, 53486, 09-11 16:49:43 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: netlib/netlib/certutils.p, 415
+trailofbits/algo, 1057, 25, 1576, 1, 165
+3b1b/manim, 3035, 298, 250158, 1, 108
+odoo/odoo, 134241, 4701, 675469, 09-11 19:16:48 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: addons/crm/crm_case_section.p, 1876
+encode/django-rest-framework, 8299, 224, 31486, 1, 1189
+CorentinJ/Real-Time-Voice-Cloning, 269, 65, 5424, 1, 16
+HelloZeroNet/ZeroNet, 3929, 289, 39933, 1, 145
+nicolargo/glances, 3760, 216, 14215, 2, 134
+reddit-archive/reddit, 7956, 736, 144818, 4, 252
+psf/black, 820, 91, 98515, 2, 198
+sebastianruder/NLP-progress, 681, 4, 323, 2, 238
+tensorflow/magenta, 1357, 342, 44713, 3, 155
+celery/celery, 11336, 288, 50502, 1, 1070
+binux/pyspider, 1181, 122, 15966, 1, 70
+ipython/ipython, 24615, 331, 35895, 3, 790
+wangshub/wechat_jump_game, 332, 22, 1755, 2, 86
+huge-success/sanic, 2271, 93, 14274, 6, 328
+tqdm/tqdm, 1509, 48, 5274, 1, 94
+cool-RR/PySnooper, 284, 24, 4165, 1, 26
+spotify/luigi, 3925, 255, 41281, 15, 589git
