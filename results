@@ -1,6 +1,6 @@
 vuejs/vue, 3113, 458, 81858, 1, 329
 facebook/react, 13547, 840, 143848, 4, 1622
-twbs/bootstrap, 19978, 247, 35428, 09-03 12:22:51 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: _reset-text.scs, 1418
+twbs/bootstrap, 20007, 247, 35467, 2, 1419
 d3/d3, 4277, 3, 95, 1, 135
 facebook/react-native, 20897, 3542, 410085, 14, 3061
 facebook/create-react-app, 2591, 113, 4854, 4, 879
@@ -8,7 +8,7 @@ axios/axios, 961, 77, 5175, 1, 267
 nodejs/node, 31551, 4526, 423490, 15, 3236
 angular/angular.js, 9020, 376, 128792, 6, 1880
 puppeteer/puppeteer, 1940, 230, 29680, 2, 316
-mrdoob/three.js, 34789, 815, 142362, 09-03 15:49:46 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: src/renderers/shaders/ShaderChunk/alphamap_pars_fragment.gls, 1770
+mrdoob/three.js, 34938, 815, 142363, 3, 1777
 mui-org/material-ui, 12519, 1576, 84710, 3, 2095
 webpack/webpack, 11876, 4104, 106133, 1, 754
 jquery/jquery, 6511, 235, 29268, 3, 336
@@ -32,7 +32,7 @@ ReactTraining/react-router, 4570, 64, 3417, 2, 696
 yarnpkg/yarn, 2339, 441, 38652, 5, 552
 Dogfalo/materialize, 3878, 153, 17395, 2, 324
 nwjs/nw.js, 4232, 806, 77793, 1, 138
-babel/babel, 13925, 12059, 147376, 09-04 01:32:10 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: packages/babel/test/fixtures/transformation/es6.arrow-functions/spec/actual.j, 1033
+babel/babel, 13925, 12059, 147376, 5, 1033
 impress/impress.js, 386, 38, 6673, 1, 78
 prettier/prettier, 4632, 4019, 92205, 2, 554
 parcel-bundler/parcel, 2013, 1876, 71292, 4, 291
@@ -43,7 +43,7 @@ TryGhost/Ghost, 11585, 1188, 120934, 3, 433
 Unitech/pm2, 4821, 258, 24289, 1, 307
 gulpjs/gulp, 1180, 6, 399, 1, 262
 adobe/brackets, 17845, 1152, 241789, 6, 543
-sveltejs/svelte, 5893, 3643, 46587, 09-04 03:50:11 WARN  DOACalculator:92 - No commits for test/runtime/samples/component-slot-static-and-dynamic/Nested.svelt, 372
+sveltejs/svelte, 5893, 3643, 46587, 1, 372
 hexojs/hexo, 3419, 282, 20433, 1, 200
 mozilla/pdf.js, 12873, 218, 90711, 2, 421
 sahat/hackathon-starter, 2522, 54, 4547, 1, 205
@@ -65,11 +65,11 @@ tastejs/todomvc, 2901, 27, 3327, 3, 377
 iamkun/dayjs, 1187, 237, 12264, 2, 207
 quilljs/quill, 5207, 100, 12215, 1, 137
 nuxt/nuxt.js, 5088, 303, 24401, 2, 323
-RocketChat/Rocket.Chat, 18621, 3270, 223559, 09-04 05:42:06 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: packages/rocketchat-slashcommand-tableflip/unflip.j, 852
+RocketChat/Rocket.Chat, 18621, 3270, 223559, 5, 852
 preactjs/preact, 4402, 165, 26482, 3, 295
 kenwheeler/slick, 921, 10, 3283, 1, 179
-jashkenas/underscore, 2623, 171, 8780, 09-04 05:46:20 WARN  DOACalculator:92 - No commits for modules/isArrayBuffer.j, 339
-react-boilerplate/react-boilerplate, 1457, 247, 6950, 09-04 05:48:54 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: internals/templates/languageProvider/actions.j, 243
+jashkenas/underscore, 2623, 171, 8780, 1, 339
+react-boilerplate/react-boilerplate, 1457, 247, 6950, 3, 243
 nylas/nylas-mail, 6116, 1478, 131892, 2, 133
 vuejs/vue-cli, 3049, 583, 40064, 2, 396
 select2/select2, 2609, 68, 6132, 1, 542
@@ -84,7 +84,7 @@ nolimits4web/swiper, 1788, 158, 10446, 1, 203
 Marak/faker.js, 1192, 1603, 125570, 2, 251
 jiahaog/nativefier, 878, 57, 3387, 1, 115
 postcss/postcss, 2865, 48, 5762, 1, 345
-strapi/strapi, 14323, 2026, 132641, 09-04 07:20:49 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: packages/strapi-plugin-upload/admin/src/components/FiltersCard/Button.j, 684
+strapi/strapi, 14323, 2026, 132641, 2, 684
 transloadit/uppy, 7791, 524, 38719, 2, 261
 GitbookIO/gitbook, 2377, 277, 9155, 1, 102
 markedjs/marked, 2185, 136, 10265, 2, 138
@@ -98,16 +98,16 @@ sequelize/sequelize, 8745, 318, 83359, 4, 1084
 balderdashy/sails, 7045, 229, 24419, 2, 299
 ajaxorg/ace, 7870, 828, 207768, 2, 506
 VincentGarreau/particles.js, 235, 1, 1081, 1, 16
-elastic/elasticsearch, 54518, 14120, 1754569, 09-04 12:33:20 WARN  DOACalculator:92 - No commits for libs/secure-sm/src/main/java/org/elasticsearch/secure_sm/SuppressForbidden.jav, 1817
-spring-projects/spring-boot, 28488, 5707, 317454, 09-04 14:10:28 WARN  DOACalculator:92 - No commits for spring-boot-project/spring-boot-docs/src/test/java/org/springframework/boot/docs/test/system/OutputCaptureTests.jav, 950
+elastic/elasticsearch, 54518, 14120, 1754569, 17, 1817
+spring-projects/spring-boot, 28488, 5707, 317454, 2, 950
 ReactiveX/RxJava, 5777, 1865, 311333, 1, 323
 square/okhttp, 4683, 331, 62036, 2, 293
 google/guava, 5323, 3067, 488702, 3, 409
-spring-projects/spring-framework, 21453, 7364, 669692, 09-04 21:28:40 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: spring-transaction/src/main/java/org/springframework/dao/QueryTimeoutException.jav, 629
+spring-projects/spring-framework, 21453, 7364, 669692, 4, 629
 square/retrofit, 1855, 279, 26475, 1, 193
-apache/dubbo, 4393, 2268, 162848, 09-04 23:10:32 WARN  DOACalculator:92 - No commits for dubbo-metadata/dubbo-metadata-definition-protobuf/src/test/java/org/apache/dubbo/metadata/definition/protobuf/model/GooglePB.jav, 402
+apache/dubbo, 4393, 2268, 162848, 3, 402
 macrozheng/mall, 554, 530, 67746, 1, 3
-PhilJay/MPAndroidChart, 2064, 223, 25251, 09-04 23:19:34 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: MPChartLib/src/com/github/mikephil/charting/utils/DefaultValueFormatter.jav, 90
+PhilJay/MPAndroidChart, 2064, 223, 25251, 1, 90
 bumptech/glide, 2520, 608, 67125, 1, 172
 airbnb/lottie-android, 1211, 274, 20112, 1, 100
 proxyee-down-org/proxyee-down, 474, 67, 7406, 1, 18
@@ -117,8 +117,8 @@ crossoverJie/JCSprout, 704, 106, 4053, 1, 30
 netty/netty, 9961, 2663, 296554, 3, 651
 greenrobot/EventBus, 507, 97, 5897, 1, 30
 skylot/jadx, 1314, 1029, 71207, 1, 57
-alibaba/fastjson, 3718, 2964, 178399, 09-05 00:55:01 WARN  DOACalculator:92 - No commits for src/test/java/com/alibaba/json/bvt/issue_1200/Issue1265.jav, 198
-alibaba/druid, 6152, 4211, 315380, 09-05 01:35:59 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: src/test/java/com/alibaba/druid/bvt/sql/postgresql/PostgresqlTest.jav, 215
+alibaba/fastjson, 3718, 2964, 178399, 1, 198
+alibaba/druid, 6152, 4211, 315380, 1, 215
 scwang90/SmartRefreshLayout, 1064, 210, 20340, 1, 10
 NationalSecurityAgency/ghidra, 3004, 11008, 1554229, 1, 130
 ctripcorp/apollo, 2411, 864, 68075, 2, 108
@@ -128,7 +128,7 @@ Netflix/Hystrix, 2109, 400, 50774, 2, 154
 ReactiveX/RxAndroid, 510, 12, 1328, 1, 87
 google/gson, 1485, 204, 25139, 2, 121
 square/picasso, 1366, 78, 9602, 2, 134
-SeleniumHQ/selenium, 25487, 4354, 337625, 09-05 12:21:22 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: common/src/java/com/thoughtworks/selenium/BrowserConfigurationOptions.jav, 669
+SeleniumHQ/selenium, 25487, 4354, 337625, 2, 669
 nostra13/Android-Universal-Image-Loader, 1038, 49, 4224, 1, 43
 libgdx/libgdx, 14331, 3939, 751340, 09-06 10:52:34 WARN  DOACalculator:180 - ERROR in RENAME: No commits for old filename: gdx/src/com/badlogic/gdx/graphics/g3d/loaders/json/JsonTexture.jav, 700
 chrisbanes/PhotoView, 453, 13, 1055, 1, 50

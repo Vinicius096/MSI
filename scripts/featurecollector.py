@@ -27,7 +27,8 @@ def commit_log_script(repo_path):
     subprocess.check_call([
         "./commit_log_script.sh", repo_path
     ])
-    num_lines = sum(1 for line in open(repo_path + '/commitinfo.log'))
+    num_lines = 0
+    #num_lines = sum(1 for line in open(repo_path + '/commitinfo.log'))
     return num_lines
 
 def linguist_script(repo_path):
@@ -36,10 +37,10 @@ def linguist_script(repo_path):
     ])
     LOC = 0
     num_lines = 0
-    print ("Counting lines of code...")
-    for line in open(repo_path + '/linguistfiles.log'):
-        LOC += get_LOC(repo_path, line)
-        num_lines += 1
+    #print ("Counting lines of code...")
+    #for line in open(repo_path + '/linguistfiles.log'):
+    #    LOC += get_LOC(repo_path, line)
+    #    num_lines += 1
     
     return num_lines, LOC
 
@@ -76,21 +77,21 @@ def gittruckfactor(repo_path, repo_fullname):
         "java", "-jar", "gittruckfactor.jar", repo_path, repo_fullname
     ], stdout=out)
     out.close
-    out = open("data/TF.txt", "r")
-    print (out.readline())
-    print (out.readline())
-    print (out.readline())
-    print (out.readline())
-    TF_str = out.readline()
-    out.close()
-    print (TF_str)
-    return TF_str[5: TF_str.find(r"(")-1]
+    with open("data/TF.txt", "r") as out:
+        for line in out:
+            if line.find("TF = ") > -1:
+                print (line)
+                TF_value = line[5:line.find(r"(")-1]
+                return TF_value
+        return 0
+
 
 def devs_log_script(repo_path):
     subprocess.check_call([
         "./devs_log_script.sh", repo_path
     ])
-    num_lines = sum(1 for line in open(repo_path + '/devsinfo.log'))
+    num_lines = 0
+    #num_lines = sum(1 for line in open(repo_path + '/devsinfo.log'))
     return num_lines
 
 def clean_repo(path: str):
