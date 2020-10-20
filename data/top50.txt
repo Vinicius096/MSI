@@ -44,6 +44,8 @@ https://github.com/nextcloud/server.git
 https://github.com/yiisoft/yii2.git
 https://github.com/symfony/console.git
 https://github.com/doctrine/orm.git
+https://github.com/owncloud/core.git
 https://github.com/symfony/process.git
 https://github.com/symfony/symfony.git
 https://github.com/matomo-org/matomo.git
+
